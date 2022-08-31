@@ -1,1 +1,6 @@
 # WFetch
+![image](./viewing.png)
+
+
+
+
