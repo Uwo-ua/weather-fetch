@@ -9,11 +9,13 @@ $ npm i -g weather-fetch
 ```
 $ weather-fetch [city]
 ```
-* **Weather-fetch use openweathermap, in [city] should be city name**
+* **Weather-fetch use _[openweathermap](https://openweathermap.org/)_, in [city] should be city name**
 ## EXAMPLE 
 ```
 $ weather-fetch dnipro
-
-$ weather-fetch London, GB
+```
+or
+```
+$ weather-fetch London, gb
 ```
 
