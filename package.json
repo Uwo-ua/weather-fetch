@@ -1,8 +1,8 @@
 {
   "name": "weather-fetch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "viewing the weather in terminal",
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "type": "module",
   "repository": "Uwo-ua/weather-fetch",
