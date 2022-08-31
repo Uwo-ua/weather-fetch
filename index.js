@@ -10,7 +10,7 @@ var parser, option;
 
 parser = new mod_getopt.BasicParser('abo:(output)', process.argv);
 
-const sity = process.argv[parser.optind()];
+const city = process.argv[parser.optind()];
 
 const logo = () => {
     figlet('WFetch', function(err, data) {
@@ -25,7 +25,7 @@ const logo = () => {
 
 logo();
 
-fetch('https://api.openweathermap.org/data/2.5/weather?q='+sity+'&appid=b252e8030c1a48f0d1950fdfbc5cc4bc')
+fetch('https://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=b252e8030c1a48f0d1950fdfbc5cc4bc')
     .then(response => response.json())
     .then(data => {
         var name = data['name'];
