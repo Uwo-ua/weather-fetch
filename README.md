@@ -5,11 +5,11 @@
 ```
 $ npm i -g weather-fetch
 ```
-#USAGE
+# USAGE
 ```
 $ weather-fetch [city]
 ```
-* **Weather-fetch use openweathermap, in [sity] should be city name**
+* **Weather-fetch use openweathermap, in [city] should be city name**
 ## EXAMPLE 
 ```
 $ weather-fetch dnipro
