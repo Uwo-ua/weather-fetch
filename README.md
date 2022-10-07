@@ -7,15 +7,15 @@ $ npm i -g weather-fetch
 ```
 # USAGE
 ```
-$ weather-fetch [city]
+$ weather-fetch [appid] [city]
 ```
-* **Weather-fetch use _[openweathermap](https://openweathermap.org/)_, in [city] should be city name**
+* **Weather-fetch use _[openweathermap](https://openweathermap.org/)_, [appid](https://home.openweathermap.org/api_keys), a in [city] should be city name**
 ## EXAMPLE 
 ```
-$ weather-fetch dnipro
+$ weather-fetch 31dqe11e12... dnipro
 ```
 or
 ```
-$ weather-fetch London, gb
+$ weather-fetch 32dq121... London, gb
 ```
 
