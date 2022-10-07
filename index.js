@@ -7,7 +7,6 @@ import fetch from 'node-fetch';
 import mod_getopt from 'posix-getopt'
 
 var parser, option;
-
 const args = process.argv;
 
 const city = process.argv[3];
