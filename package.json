@@ -1,6 +1,6 @@
 {
   "name": "weather-fetch",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "viewing the weather in terminal",
   "license": "MIT",
   "main": "index.js",
